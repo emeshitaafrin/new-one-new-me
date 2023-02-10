@@ -1,0 +1,205 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.section-space {
+    padding: 60px 0;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-side {
+    width: 50%;
+}
+
+.right-side {
+    width: 50%;
+}
+
+.section-title {
+    font-size: 40px;
+    color: #151414;
+    line-height: normal;
+    font-weight: 700;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Segoe UI', sans-serif;
+    /* padding-left: 150px; */
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* Banner Area Styles */
+.hero-area {
+    background-color: #BFC0C4;
+}
+
+.hero-area .hero-content   {
+    text-align: right;
+}
+
+.hero-area .hero-content .hero-title  {
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 65px;
+    margin-bottom: 15px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #151414;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+button.btn  {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Segoe UI', sans-serif;
+    padding: 10px 25px;
+    background-color: #F15B22;
+    border-radius: 3px;
+    border: none;
+    color: #FFF;
+    transition: all 0.3s ease-in-out;
+    margin-top: 30px;
+}
+
+button.btn:hover {
+    background-color: #0088DD;
+}
+
+/* About Area Styles */
+
+ul li i {
+    color: #16D887;
+}
+
+.about-area {
+    padding-top: 120px;
+}
+
+.about-area .container .about-content {
+    padding-left: 80px;
+}
+
+.about-area .container .about-content p {
+    padding: 0;
+}
+
+/* Planing Area Styles */
+.planing-area .section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.planing-area .container {
+    justify-content: space-between;
+}
+
+.icon-box {
+    text-align: center;
+}
+
+.icon-box img {
+    width: 90px;
+    height: 90px;
+}
+
+.icon-box h3 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+    color: #000;
+}
+
+.icon-box p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    color: #737272;
+}
+
+
+/* Booking Area Styles */
+.booking-inner {
+    background: linear-gradient(80deg, rgba(241, 93, 34, 1), rgba(241, 93, 34, 0.1)),
+        url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 60px 65px;
+    width: 100%;
+    text-align: left;
+    border-radius: 8px;
+}
+
+.booking-inner .inner-text {
+    width: 460px;
+}
+
+.booking-inner .inner-text .section-title {
+    color: #FFF;
+}
+
+.booking-inner .inner-text .btn-call {
+    background-color: #FFF;
+    color: #F15B22;
+}
+
+.booking-inner .inner-text .btn-call:hover {
+    background-color: #0088DD;
+    color: #FFF;
+}
+
+/* Footer Area Styles */
+.footer-area {
+    background: #151414;
+}
+
+.info-area .social {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 40px;
+}
+
+.info-area .social li {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background: #FFF;
+}
+
+.info-area .social li a {
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background: #FFF;
+}
