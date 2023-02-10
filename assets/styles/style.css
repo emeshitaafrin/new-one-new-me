@@ -181,6 +181,29 @@ ul li i {
     background: #151414;
 }
 
+.footer-area .container {
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer-area .container .info-area {
+    width: 475px;
+}
+
+.footer-area .container .info-area .section-title {
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+.footer-area .container .info-area p {
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+.footer-area .container .info-area p.email {
+    margin-bottom: 10px;
+}
+
 .info-area .social {
     display: flex;
     align-items: center;
@@ -192,14 +215,79 @@ ul li i {
     margin-right: 10px;
     width: 40px;
     height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 100px;
     background: #FFF;
 }
 
-.info-area .social li a {
-    margin-right: 10px;
-    width: 40px;
-    height: 40px;
-    border-radius: 100px;
+.facebook {color: #006AFF;}
+.twitter {color: #1DA1F2;}
+.instagram {color: #E1306C;}
+.youtube {color: #FF0000;}
+
+.info-area .social li a i {
+    font-size: 18px;
+}
+
+/* Links area Styles */
+.link-area .section-title {
+    font-size: 25px;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+.link-area ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #FFF;
+    margin-bottom: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;;
+}
+
+.link-area ul li a:hover {
+    color: #F15B22;
+}
+
+/* Newslatter Area */
+.footer-area .container .newsletter-area .section-title {
+    font-size: 25px;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+.footer-area .container .newsletter-area input[type=email] {
+    background: transparent;
+    font-size: 15px;
+    color: #F3F3F3;
+    margin-bottom: 10px;
+    border: 2px solid #FFF;
+    border-radius: 8px;
+    padding: 15px 20px;
+    outline: none;
+}
+
+.footer-area .container .newsletter-area .btn-subscribe {
+    margin: 0;
+    color: #F15B22;
     background: #FFF;
+    border-radius: 8px;
+    padding: 15px 25px;
+}
+
+.footer-area .container .newsletter-area .btn-subscribe:hover {
+    margin: 0;
+    color: #FFF;
+    background: #F15B22;
+}
+
+/* Copy Right Styles */
+p.copyright {
+    text-align: center;
+    color: #FFF;
+    padding-bottom: 10px;
+    margin: 0;
 }
