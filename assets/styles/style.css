@@ -42,7 +42,6 @@ p {
     font-size: 16px;
     font-weight: 400;
     font-family: 'Segoe UI', sans-serif;
-    /* padding-left: 150px; */
 }
 
 ul {
@@ -69,6 +68,10 @@ li {
     margin-bottom: 15px;
     font-family: 'Segoe UI', sans-serif;
     color: #151414;
+}
+
+.hero-area .hero-content p.hero-desc {
+    padding-left: 150px;
 }
 
 img {
@@ -161,6 +164,34 @@ ul li i {
     color: #737272;
 }
 
+/* Blog Area Styles */
+.blog-area .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.blog-box:not(:last-child) {
+    margin-right: 20px;
+}
+
+.blog-box {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.blog-box .blog-footer {
+    padding: 20px;
+}
+
+.blog-title {
+    margin-bottom: 20px;
+}
+
+.blog-title a {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+}
 
 /* Booking Area Styles */
 .booking-inner {
@@ -237,6 +268,12 @@ ul li i {
     align-items: center;
     border-radius: 100px;
     background: #FFF;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid transparent;
+}
+
+.info-area .social li:hover {
+    border-color: #F15B22;
 }
 
 .facebook {color: #006AFF;}
